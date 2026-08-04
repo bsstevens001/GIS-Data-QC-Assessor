@@ -1,5 +1,5 @@
 # GIS-Data-QC-Assessor v1.0
-An automated QA/QC framework for utility tabular datasets
+An automated data quality assessment & QA/QC framework for utility tabular datasets
 
 ## What is the GIS Data QC Assessor?
 The `GIS Data QC Assessor v1.0` is a **Python** QA/QC framework used to assess the quality of tabular utility datasets. By performing a series of validation checks, generating quality reports, calculating weighted quality scores, and more, the user will understand the number of errors within the dataset, where the errors are located, and how valid the data is.
@@ -17,8 +17,8 @@ The GIS Data QC Assessor is important because it:
 
 ### Features
 - User inputs
-- Field alias formatting
-- Dynamic runnability based on available fields
+- Field alias mapping & schema standardization
+- Dynamic QC execution based on available fields
 - Null detection
 - Duplicate detection
 - Invalid coordinate (Lat, Lon) detection
@@ -29,7 +29,7 @@ The GIS Data QC Assessor is important because it:
 - Report of error location
 - Report of executed and skipped checks
 - Visualization of error counts & quality score
-- Outputs file that includes qc report & charts
+- Automated exports of QA/QC report & visualization charts
 
 ### Supported Fields
 Alias standardization for any fields related to:
@@ -71,7 +71,3 @@ Alias standardization for any fields related to:
 - Duplicate geometry detection
 - Additional domain validation rules
 - Logical upgrades
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
