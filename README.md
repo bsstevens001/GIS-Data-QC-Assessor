@@ -41,12 +41,12 @@ Alias standardization for fields related to:
 ### Libraries Used
 The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
-## Outputs
+## Output Examples
 <details>
   <summary> Click to expand</summary>
 
   ### Output Report
-  <img width="364" height="919" alt="Screenshot 2026-08-04 114247" src="https://github.com/user-attachments/assets/5b326fb7-a9e2-4a2c-96ec-bf240cb9b839" />
+  <img width="351" height="920" alt="Screenshot 2026-08-04 115957" src="https://github.com/user-attachments/assets/7c559612-d3fd-47ee-8333-d45e7c4b374f" />
 
   ### Output Error Count Chart
   <img width="678" height="782" alt="image" src="https://github.com/user-attachments/assets/e95a6ecb-41c2-4002-a630-a8ad34ba9621" />
