@@ -1,0 +1,22 @@
+AssetID,AssetType,Latitude,Longitude,InstallYear,Diameter,Status,Material
+1001,Valve,36.8500,-75.9780,2015,12,Active,Ductile Iron
+1002,Hydrant,36.8572,-75.9821,2012,6,Active,Cast Iron
+1003,Valve,36.8610,-75.9750,2016,8,Active,PVC
+1004,Manhole,36.8642,-75.9731,2018,24,Inactive,Concrete
+1005,Valve,,,2017,12,Active,Ductile Iron
+1006,Hydrant,36.8700,-75.9700,2020,,Active,
+1007,Valve,36.8721,-75.9685,2050,10,Active,PVC
+1007,Valve,36.8721,-75.9685,2050,10,Active,PVC
+1008,Hydrant,95.2000,-75.9650,2014,6,Active,Cast Iron
+1009,Valve,36.8755,-190.0000,2010,8,Active,Ductile Iron
+1010,Manhole,0.0000,0.0000,2008,24,Active,Concrete
+1011,Valve,36.8781,-75.9620,2016,-4,Active,PVC
+1012,Pipe,36.8790,-75.9610,2017,999,Active,Ductile Iron
+1013,,36.8800,-75.9600,2018,12,Active,PVC
+1014,Hydrant,36.8812,-75.9590,1992,6,Broken,Cast Iron
+1015,Valve,36.8825,-75.9580,2013,8,Unknown,PVC
+1016,Valve,36.8830,-75.9570,2011,8,Active,Ductile Iron
+1017,Valve,36.8830,-75.9570,2011,8,Active,Ductile Iron
+1018,Hydrant,36.8840,-75.9560,1880,6,Active,Cast Iron
+1019,PumpStation,36.8850,-75.9550,2019,5000,Active,Concrete
+1020,Valve,36.8860,-75.9540,2017,12,Active,PVC
