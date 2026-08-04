@@ -1,8 +1,11 @@
 # GIS-Data-QC-Assessor v1.0
-Repository for accessing &amp; understanding the GIS Data QC Assessor
+An automated QA/QC framework for utility tabular datasets
 
 ## What is the GIS Data QC Assessor?
-The GIS Data QC Assessor is a **Python** framework used to assess the quality of tabular utility datasets. By performing a series of validation checks, generating quality reports, calculating weighted quality scores, and more, the user will understand the number of errors within the dataset, where the errors are located, and how valid the data is.
+The `GIS Data QC Assessor v1.0` is a **Python** QA/QC framework used to assess the quality of tabular utility datasets. By performing a series of validation checks, generating quality reports, calculating weighted quality scores, and more, the user will understand the number of errors within the dataset, where the errors are located, and how valid the data is.
+
+### Libraries Used
+The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
 ### Tool Purpose
 The GIS Data QC Assessor is important because it:
@@ -19,16 +22,17 @@ The GIS Data QC Assessor is important because it:
 - Null detection
 - Duplicate detection
 - Invalid coordinate (Lat, Lon) detection
-- Invalid pipe age detection
+- Invalid pipe installation year detection
 - Invalid pipe status detection
 - Weighted quality scoring
 - Report of error counts
 - Report of error location
 - Report of executed and skipped checks
 - Visualization of error counts & quality score
+- Outputs file that includes qc report & charts
 
 ### Supported Fields
-Alias standardization for fields related to:
+Alias standardization for any fields related to:
 - Asset_ID
 - Asset_Type
 - Latitude
@@ -38,8 +42,14 @@ Alias standardization for fields related to:
 - Status
 - Material
 
-### Libraries Used
-The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
+### Workflow
+1. Input CSV Dataset
+2. Field Alias Standardization
+3. Validation Checks
+4. Quality Scoring
+5. Report Generation
+6. Chart Visualization
+7. Output Folder
 
 ## Output Examples
 <details>
@@ -53,6 +63,13 @@ The libraries used within the tool include **Pandas** for data analysis and **Ma
 
   ### Output Score Chart
   <img width="687" height="703" alt="image" src="https://github.com/user-attachments/assets/e23d289b-5618-4664-bb31-ae16fcc2a5d3" />
+
+## Eventual Enhancements
+- GeoPandas integration & functionality for Geodataframes
+- Geometry validation
+- Duplicate geometry detection
+- Additional domain validation rules
+- Logical upgrades
 
 ```python
 import pandas as pd
