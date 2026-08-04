@@ -1,0 +1,66 @@
+Water Utility GIS QC Checker
+==================================
+Null Values by Column: 
+Asset_ID        0
+Asset_Type      1
+Latitude        1
+Longitude       1
+Install_Year    0
+Diameter        1
+Status          0
+Material        1
+Total Count of Null Values: 
+5
+	 Null Values Found in:
+		 Asset ID 1005
+		 Asset ID 1006
+		 Asset ID 1013
+==================================
+Invalid Pipe Diameters: 
+3
+	 Invalid Pipe Diameters Found in:
+		 Asset ID 1011
+		 Asset ID 1012
+		 Asset ID 1019
+Invalid Installation Years: 
+2
+	 Invalid Installation Year Found in:
+		 Asset ID 1007
+		 Asset ID 1007
+Invalid Geographic Coordinates: 
+3
+	 Invalid Geographic Coordinates Found in:
+		 Asset ID 1008
+		 Asset ID 1009
+		 Asset ID 1010
+Duplicate Records: 
+1
+	 Duplicate Records Found in:
+		 Asset ID 1007
+Status Counts:
+	 Active Pipes: 18
+	 Inactive Pipes: 1
+	 Invalid Pipes: 2
+		 Asset ID 1014
+		 Asset ID 1015
+==================================
+Missing Attribute Score: 24.3 / 25
+Duplicates Score: 9.5 / 10
+Out of Range Score: 19.0 / 25
+Invalid Location Score: 25.7 / 30
+Status Score: 9.5 / 10
+==================================
+Total Score: 88.0 / 100
+Grade: Good Score
+
+6 / 6 Checks Executed
+
+Checks Executed:
+✅ Nulls
+✅ Duplicates
+✅ Coordinates
+✅ Installation Years
+✅ Pipe Diameters
+✅ Service Status
+
+Checks Skipped:
