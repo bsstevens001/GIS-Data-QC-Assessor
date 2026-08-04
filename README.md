@@ -53,6 +53,7 @@ Alias standardization for any fields related to:
 
 ## Repository Structure
 ### [GIS_QC_Assessor_v1.0.ipynb](https://github.com/bsstevens001/GIS-Data-QC-Assessor/blob/main/GIS_QC_Assessor_v1.0.ipynb)
+
 ## Output Examples
 <details>
   <summary> Click to expand</summary>
