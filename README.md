@@ -42,7 +42,7 @@ Alias standardization for fields related to:
 The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
 <details>
-  <summary> ## Output Examples </summary>
+  <summary> **Output Examples** </summary>
 
   ### Output Report
   <img width="364" height="919" alt="Screenshot 2026-08-04 114247" src="https://github.com/user-attachments/assets/5b326fb7-a9e2-4a2c-96ec-bf240cb9b839" />
