@@ -33,14 +33,14 @@ The libraries used within the tool include **Pandas** for data analysis and **Ma
 
 ### Supported Fields
 Alias standardization for any fields related to:
-- Asset_ID
-- Asset_Type
-- Latitude
-- Longitude
-- Install_Year
-- Diameter
-- Status
-- Material
+- `Asset_ID`
+- `Asset_Type`
+- `Latitude`
+- `Longitude`
+- `Install_Year`
+- `Diameter`
+- `Status`
+- `Material`
 
 ### Workflow
 1. Input CSV Dataset
