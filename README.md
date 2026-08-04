@@ -6,7 +6,7 @@ The GIS Data QC Assessor is a python script that conducts an automated data qual
 
 The GIS Data QC Assessor is important because it is efficient by automating statistical and analytical error checks within seconds so that the user does not have to conduct them manually which can consume time. The tool also breaks down various issues within the dataset that the user may not immediately find allowing for the user to better understand their data, visualize it, and take action towards correcting the data.
 
-##Libraries Used
+## Libraries Used
 The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
 ```python
