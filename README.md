@@ -9,13 +9,4 @@ The GIS Data QC Assessor is important because it is efficient by automating stat
 ##Libraries Used
 The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "2",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "num_points = 120"
-   ]
-  },
+'''Hello
