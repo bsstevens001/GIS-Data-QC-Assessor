@@ -10,3 +10,5 @@ The GIS Data QC Assessor is important because it is efficient by automating stat
 The libraries used within the tool include **Pandas** for data analysis and **Matplotlib** for data visualization.
 
 ```python
+import pandas as pd
+import matplotlib.pyplot as plt
