@@ -63,7 +63,7 @@ Alias standardization for any fields related to:
 
   ### Output Score Chart
   <img width="687" height="703" alt="image" src="https://github.com/user-attachments/assets/e23d289b-5618-4664-bb31-ae16fcc2a5d3" />
-<details>
+</details>
 
 ## Eventual Enhancements
 - GeoPandas integration & functionality for Geodataframes
