@@ -44,7 +44,10 @@ The libraries used within the tool include **Pandas** for data analysis and **Ma
 ## Output Examples
 ### Output Report
 <img width="364" height="919" alt="Screenshot 2026-08-04 114247" src="https://github.com/user-attachments/assets/5b326fb7-a9e2-4a2c-96ec-bf240cb9b839" />
-
+### Output Error Count Chart
+<img width="678" height="782" alt="image" src="https://github.com/user-attachments/assets/e95a6ecb-41c2-4002-a630-a8ad34ba9621" />
+### Output Score Chart
+<img width="687" height="703" alt="image" src="https://github.com/user-attachments/assets/e23d289b-5618-4664-bb31-ae16fcc2a5d3" />
 
 ```python
 import pandas as pd
