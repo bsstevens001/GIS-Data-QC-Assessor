@@ -18,7 +18,7 @@ The libraries used within the tool include **Pandas** for data analysis and **Ma
 ### Features
 - User inputs
 - Field alias mapping & schema standardization
-- Dynamic QC execution based on available fields (tool can run no matter the field count)
+- Dynamic QC execution based on available fields *(tool can run no matter the field count)*
 - Null detection
 - Duplicate detection
 - Invalid coordinate (Lat, Lon) detection
