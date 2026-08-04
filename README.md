@@ -18,7 +18,7 @@ The libraries used within the tool include **Pandas** for data analysis and **Ma
 ### Features
 - User inputs
 - Field alias mapping & schema standardization
-- Dynamic QC execution based on available fields
+- Dynamic QC execution based on available fields (tool can run no matter the field count)
 - Null detection
 - Duplicate detection
 - Invalid coordinate (Lat, Lon) detection
@@ -52,7 +52,7 @@ Alias standardization for any fields related to:
 7. Output Folder
 
 ## Repository Structure
-Each file within the repository can be accessed below along with a description of the file explaining it.
+Each file within the repository can be accessed below along with its description.
 ### [GIS_QC_Assessor_v1.0.ipynb](https://github.com/bsstevens001/GIS-Data-QC-Assessor/blob/main/GIS_QC_Assessor_v1.0.ipynb) and [GIS_QC_Assessor_v1.0.py](https://github.com/bsstevens001/GIS-Data-QC-Assessor/blob/main/GIS_QC_Assessor_v1.0.py)
 Primary Jupyter Notebook and python script containing the code for the tool.
 ### [sample_dataset.csv](https://github.com/bsstevens001/GIS-Data-QC-Assessor/blob/main/sample_dataset.csv)
